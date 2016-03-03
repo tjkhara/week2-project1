@@ -3,19 +3,21 @@
 
 // For any methods that we didn't cover, please refer to the Object Documentation.
 // Please console.log("Question#") followed by console.log(yourAnswer) after each question.
-// If you would like, practice using document.write() as well. Use any elements you like!
+// If you would like, practice using document.write() as well. 
+// Use any elements you like!
+
 // ==========================================================================
 
 // 1. Create an object called "me" that describes you with your name, city, and job title.
 
-//console.log("Question 1");
-//console.log(yourAnswer);
+console.log("Question 1");
+console.log(yourAnswer);
 
 // 2. To your "me" object, add a key of "family" with the value being an array of three of your family members.
 // Example of desired output: { name: 'Bob Smith',
 //                              city: 'Denver',
 //                              jobTitle: 'professional wrestler',
-//                               family: ['Joan', 'Kyle', 'Hank'] }
+//                              family: ['Joan', 'Kyle', 'Hank'] }
 
 // 3. Using the "me" object, use two different methods of accessing your city.
 
@@ -54,13 +56,13 @@ var invitees = { adults: [{
                          ]
                       };
 
-// 4. Access Penny's dinner choice (this will be the second item in his dinneChoice array)
+// 4. Access Penny's dinner choice (this will be the second item in his dinnerChoice array)
 
 // 5. Access Pablo's table number.
 
 // 6. Access Lauren's seating specialConsideration.
 
-// 7. Access Billy's dessert choice (this will be the third item in his dinneChoice array)
+// 7. Access Billy's dessert choice (this will be the third item in his dinnerChoice array)
 
 // 8. Access Ada's allergies.
 
@@ -78,7 +80,7 @@ var invitees = { adults: [{
 
 // 14. Clear the classmates value.
 
-// 15. Create an emtpy array called "books".
+// 15. Create an empty array called "books".
 // Create three objects that contain book titles, their author, and number of pages.
 // Insert the three objects into the "books" array.
 // (Feel free to make up the titles. And the authors. Have fun. No pressure.)
@@ -152,5 +154,7 @@ var invitees = { adults: [{
 
 // 29. To the empty "zookeepers" object, add two objects with their keys being two names and their values being an empty object.
 
-// 30. This joker wants you to add the "hireDate" for each zookeeper. Within the empty array attached to each name, assign a key/value pair of
-// "hireDate" and the value being a string of hire date.
+// 30. This joker wants you to add the "hireDate" for each zookeeper. Within the empty array attached to each name, assign a key/value pair of "hireDate" and the value being a string of hire date.
+
+    
+    
