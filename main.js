@@ -1,12 +1,30 @@
-//THE OBJECT OF MY AFFECTION: OBJECTS
-//IN CLASS OBJECT EXERCISES
+/*
+=======================================================
 
-// For any methods that we didn't cover, please refer to the Object Documentation.
-// Please console.log("Question#") followed by console.log(yourAnswer) after each question.
-// If you would like, practice using document.write() as well.
-// Use any elements you like!
+** Week 1 - Project 2 **
+*** THE OBJECT OF MY AFFECTION: OBJECTS ***
 
-// ==========================================================================
+Below are a number of problems for you to solve
+using JS. The JS code can be written below each
+problem and the result can be logged to the console.
+
+In order to make the results easy to read,
+please use console.log("Question #") to declare the
+problem number being solved followed by console.log(yourAnswer) after each question.
+
+For any methods that we didn't cover, please refer to the Object Documentation.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+Discovering new things is fun and a great way to learn!!
+
+EXAMPLE:
+1. Log your 'hello world' to the console.
+console.log("Question 1")
+console.log("hello world")
+
+BASIC TRACK: 1-13
+ADVANCED TRACK: 14-20
+=======================================================
+*/
 
 // 1. Create an object called "me" that describes you with your name, city, and job title.
 
@@ -16,7 +34,7 @@
 //                              jobTitle: 'professional wrestler',
 //                              family: ['Joan', 'Kyle', 'Hank'] }
 
-// 3. Using the "me" object, use the two different methods to access the value of your city.
+// 3. Using the "me" object, use dot notation and bracket notation to access the value of your city.
 
 // Use the following Object for questions 4-9:
 var invitees = { adults: [{
@@ -75,14 +93,14 @@ var invitees = { adults: [{
 
 // 13. Clear the classmates value.
 
+
+// ADVANCED TRACK
 // 14. Create an empty array called "books".
 
 // 15. Create three book objects that contain book titles, their author, and number of pages.
 //     The name of each object should be some kind of made up ISBN number.
 //     (Feel free to make up the titles. And the authors. Have fun. No pressure.)
 //     Insert the three objects into the "books" array.
-
-
 
 // Final desired result:
     // var books = [ISBN22222:  {
@@ -111,4 +129,4 @@ var invitees = { adults: [{
 
 // 19. Remove the second book from the books Array.
 
-// Bonus: Explain, in your own words, the difference between Literal Notation and Constructor Notation.
+// 20. Explain, in your own words, the difference between Literal Notation and Constructor Notation.
