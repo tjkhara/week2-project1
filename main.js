@@ -1,7 +1,7 @@
 /*
 =======================================================
 
-** Week 1 - Project 2 **
+** Week 2 - Project 1 **
 *** THE OBJECT OF MY AFFECTION: OBJECTS ***
 
 Below are a number of problems for you to solve
