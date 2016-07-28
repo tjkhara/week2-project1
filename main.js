@@ -162,6 +162,14 @@ console.log(jsWorkshop.classmates[3]);
 // ADVANCED TRACK
 // 14. Create an empty object called "books".
 
+console.log ("\nQuestion 14\n");
+
+var books = {
+	
+};
+
+console.log(books);
+
 // 15. Create three book objects that contain book titles, their author, and number of pages.
 //     The name of each object should be some kind of made up ISBN number.
 //     (Feel free to make up the titles. And the authors. Have fun. No pressure.)
@@ -184,6 +192,32 @@ console.log(jsWorkshop.classmates[3]);
     //                             pages: 569,
     //                           }
     //             }
+    
+console.log ("\nQuestion 15\n");
+
+    var books = {ISBN22222:  {
+    
+    title: "You Had Me at Woof",
+    author: "Julie Klum",
+    pages: 207
+    },
+    
+    ISBN33333:  {
+    title: "The Catcher in the Rye",
+    author: "JD Salinger",
+    pages: 214
+    },
+    
+    ISBN44444:  {
+    title: "Bangkok Haunts",
+    author: "John Burdett",
+    pages: 569,
+    }
+    
+	
+};
+
+console.log(books);
 
 // 16. Access the author of the first book.
 
