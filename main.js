@@ -221,11 +221,41 @@ console.log(books);
 
 // 16. Access the author of the first book.
 
+console.log ("\nQuestion 16\n");
+
+console.log(books.ISBN22222.author);
+
 // 17. Get the length of the author the the third book.
+
+console.log ("\nQuestion 17\n");
+
+console.log(books.ISBN44444.author.length);
 
 // 18. To each book object variable, add a key of "dateRead" with a value of the year you read the book.
 //     (Go ahead and make this up, too. Get wild.)
 
+console.log ("\nQuestion 18\n");
+
+books.ISBN22222.dateRead = "July 1st, 2001";
+books.ISBN33333.dateRead = "July 1st, 2002";
+books.ISBN44444.dateRead = "July 1st, 2003";
+
+console.log(books.ISBN22222.dateRead+"\n");
+console.log(books.ISBN33333.dateRead+"\n");
+console.log(books.ISBN44444.dateRead+"\n");
+
 // 19. Remove the second book from the books object.
 
+console.log ("\nQuestion 19\n");
+
+delete books.ISBN33333;
+
+console.log(books);
+
 // 20. Explain, in your own words, the difference between Literal Notation and Constructor Notation.
+
+// I don't see any real difference between the two apart from the constructor notation using var newObject = new Object (); and the 
+// literal notation using var newObject = {
+//	};
+//In both cases an empty object is created and now stuff can be added to it.  So, I'm not really sure why the lecture mentioned
+// that the constructor notation is helpful in creating an object first and you can arrange your data outside the object and then add it to the object
