@@ -58,6 +58,8 @@ console.log ("\nQuestion 3\n");
 
 console.log(me.city);
 
+// with the bracket notation console.log(me["city"]);
+
 // Use the following Object for questions 4-9:
 var invitees = { adults: [{
                           name: "Penny",
